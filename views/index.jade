@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    link(href='./stylesheets/style.css', rel='stylesheet')
+    link(href='./stylesheets/skype/emoticons.css', rel='stylesheet')
+    script(src='http://code.jquery.com/jquery-latest.min.js')
+    script(src='./socket.io/socket.io.js')
+    script(src='./javascripts/emoticons.js')
+    script(src='./javascripts/app.js')
+      
+  body
+    #chat
+      #nickname
+        form.wrap#set-nickname
+          p Please type in your nickname and press enter.
+          input#nick
+          button#sennd Enter
+          p#nickname-err Nickname already in use
+      #connecting
+        .wrap Connecting to ChatEx server
+      #messages
+        #nicknames
+        #lines
+      #typing
+      form#send-message
+        input#message
+        button Send
+        button#disconnect Logout

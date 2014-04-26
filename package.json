@@ -1,0 +1,16 @@
+{
+    "name": "chatex",
+	"description": "Create by Hellcoderz",
+	"version": "0.0.1",
+	"dependencies": {
+        "express": "",
+		"jade": "",
+		"stylus": "",
+		"nib": "",
+		"socket.io": ""
+    },
+	"engines": {
+    "node": ">= 0.4.7",
+    "npm": "1.1.4"
+  }
+}
